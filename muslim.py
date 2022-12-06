@@ -4,18 +4,18 @@ import csv
 import traceback
 import time
 import random
-import configparser
 import time
 import os 
 import webbrowser 
 import json
 import random
+install configparser
 time.sleep(0.9)
 re="\033[1;31m"
 gr="\033[1;32m"
 cy="\033[1;36m"
-os.system("pip install configpaster")
 os.system("pip install requests")
+os.system("pip install configparser")
 os.system("pip install python3")
 os.system("clear")
 print(f"""{cy}installing [+]""")
@@ -34,7 +34,7 @@ print (f""" {cy}>>>>>>>{re}version 1.1.3{cy}<<<<<<<<<<< """)
 
 ism = input(f"""{re}username: \n >>>""" )
 print(f"""{cy}Welcome to  """  + ism.title())
-harf = input(f"""{re}....  """)
+harf = input(f"""{re}.... """)
 print(f"""{cy}>>> 1.Open telegram bot """)
 print(f"""{cy }>>>2.Telegram members""")
 print(f"""{cy}>>> 3.My games""")
